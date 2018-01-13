@@ -1,10 +1,10 @@
 {
-  "name": "pubsub-eventemitter",
+  "name": "es6-eventemitter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple Event Emitter (pub/sub) using Map and Set.",
   "main": "index.js",
   "scripts": {
-    "test": "standard && jest"
+    "test": "jest && standard"
   },
   "author": "Cameron Jenkinson",
   "license": "MIT",
