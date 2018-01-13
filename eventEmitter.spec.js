@@ -50,10 +50,4 @@ describe('Event Emitter', () => {
     expect(result).toBeUndefined()
   })
 
-  it('returns false on empty emit', () => {
-    const result = emitter.emit('click', 'button')
-
-    expect(result).toBe(false);
-  })
-
 });

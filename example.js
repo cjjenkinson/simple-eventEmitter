@@ -19,7 +19,7 @@ events.on('hover', (target) => {
 events.emit('hover', 'link')
 // => link hovered state active
 
-const unSub= events.on('update', (value) => {
+const unSub = events.on('update', (value) => {
   console.log(`Updated to ${value}`)
 })
 
