@@ -1,0 +1,15 @@
+{
+  "name": "pubsub-eventemitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && jest"
+  },
+  "author": "Cameron Jenkinson",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.0.6",
+    "standard": "^10.0.3"
+  }
+}
